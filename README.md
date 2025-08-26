@@ -5,7 +5,7 @@ A modern, responsive news application that fetches and displays news articles fr
 [Click here to view the live site](https://asmaa-abdo22.github.io/News-api-js/)
 
 ## 📸 Screenshot  
-![Screenshot](https://github.com/user-attachments/assets/2e4a42b4-977f-4e37-b460-19001b3ba80b)  
+![Screenshot](https://github.com/user-attachments/assets/8025f9c1-ace8-4aea-ae60-2f76ffedc836)  
 
 ## 🛠️ Technologies Used  
 - **HTML5**  

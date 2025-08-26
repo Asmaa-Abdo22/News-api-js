@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Api Js Task</title>
+    <!-- &---Fav Icon--- -->
+    <link rel="shortcut icon" href="./imgs/logo.png" type="image/x-icon">
+    <!-- &---Font Awesome--- -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- &---Bootstrap--- -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- &---AOS Library--- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- &---Main Css--- -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="navbar fixed-top py-3 navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bolder display-1" href="#">News</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <i class="fa-solid fa-bars navbar-toggler-icon"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page">United States</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Egypt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Japan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">France</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <main>
+
+        <aside>
+            <div class="asidee">
+                <ul class="list-unstyled">
+                    <li class="aside-Links active">
+                        <a class="nav-link">Business</a>
+                    </li>
+                    <li class="aside-Links">
+                        <a class="nav-link">Sports</a>
+                    </li>
+                    <li class="aside-Links">
+                        <a class="nav-link">Science</a>
+                    </li>
+                    <li class="aside-Links">
+                        <a class="nav-link">Technology</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Sidebar Toggle Button -->
+        <button class="sidebar-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <!-- Overlay for when sidebar is open -->
+        <div class="overlay"></div>
+
+        <section class="mainContent ">
+            <div class="container p-4">
+                <div class=" row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3 news-container">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- &---Bootstrap Js--- -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- &---AOS Library--- -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- &---Main Js--- -->
+    <script src="./js/index.js"></script>
+
+    <script>
+        // Initialize AOS when the page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            AOS.init({
+                duration: 500,
+                easing: 'ease-in-out',
+                once: false,
+                mirror: false
+            });
+        });
+    </script>
+</body>
+
+</html>

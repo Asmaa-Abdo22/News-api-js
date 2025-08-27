@@ -5,7 +5,9 @@ A modern, responsive news application that fetches and displays news articles fr
 This project requires a **NewsAPI API Key** to work.  
 
 1. Get your free API key from [NewsAPI.org](https://newsapi.org).  
-2. Open the project code and replace `YOUR_API_KEY_HERE` in `script.js` with your own API key:  
+2. Open the project code and replace `YOUR_API_KEY_HERE` in `script.js` with your own API key:
+
+   
    ```js
    const response = await fetch(
      `https://newsapi.org/v2/top-headlines?country=${countrycode}&category=${category}&apiKey=YOUR_API_KEY_HERE`

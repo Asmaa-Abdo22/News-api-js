@@ -1,9 +1,15 @@
 # 📰 Overview  
 A modern, responsive news application that fetches and displays news articles from various countries and categories using a news API.  
 
-## 🚀 Live Demo  
-[Click here to view the live site](https://asmaa-abdo22.github.io/News-api-js/)
+## 🚀 Setup Instructions  
+This project requires a **NewsAPI API Key** to work.  
 
+1. Get your free API key from [NewsAPI.org](https://newsapi.org).  
+2. Open the project code and replace `YOUR_API_KEY_HERE` in `script.js` with your own API key:  
+   ```js
+   const response = await fetch(
+     `https://newsapi.org/v2/top-headlines?country=${countrycode}&category=${category}&apiKey=YOUR_API_KEY_HERE`
+   );
 ## 📸 Screenshot  
 ![Screenshot](https://github.com/user-attachments/assets/8025f9c1-ace8-4aea-ae60-2f76ffedc836)  
 

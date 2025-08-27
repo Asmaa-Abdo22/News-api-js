@@ -13,7 +13,7 @@ console.log("navlinks", asideLinks);
 // &----FUNCTIONS ----
 async function getNews(category, countrycode) {
   let response = await fetch(
-    `https://newsapi.org/v2/top-headlines?country=${countrycode}&category=${category}&apiKey=56fd3d86847f4852ac1d783fb60f3da5`
+    `https://newsapi.org/v2/top-headlines?country=${countrycode}&category=${category}&apiKey=YOUR_API_KEY_HERE`
   );
   let data = await response.json();
   console.log("array of news", data.articles);
